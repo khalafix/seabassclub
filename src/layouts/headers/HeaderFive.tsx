@@ -22,7 +22,7 @@ export default function HeaderFive() {
         <nav className="navbar navbar-expand-xl">
           {/* <!-- Navbar Brand --> */}
           <Link className="navbar-brand" href="/home-5">
-            <Image className="d-none d-md-block w-auto h-auto" src="/assets/img/core-img/logo-four.png" alt="" width={1920} height={1080} priority/>
+            <Image className="d-none d-md-block w-auto h-auto" src="/assets/img/core-img/seabassclub.png" alt="" width={1920} height={1080} priority/>
             <Image className="d-block d-md-none w-auto h-auto" src="/assets/img/core-img/logo-sm-four.png" alt="" width={1920} height={1080} priority/>
           </Link>
 
