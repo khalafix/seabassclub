@@ -14,8 +14,8 @@ export default function ContactArea() {
 
                 <div className="contact-sm-card">
                   <h4 className="mb-3">Address</h4>
-                  <p>6801 Hollywood Blvd, Los Angeles, CA 90028</p>
-                  <p>6801 Hollywood Blvd, Los Angeles, CA 90028</p>
+                  <p>Los Angeles, CA 90028</p>
+                  <p>6801 Hollywood Blvd, CA 90028</p>
                 </div>
 
                 <hr />
@@ -23,7 +23,7 @@ export default function ContactArea() {
                 <div className="contact-sm-card">
                   <h4 className="mb-3">Email</h4>
                   <p>info@startix.com</p>
-                  <p>info@startix.com</p>
+                  <p>care@startix.com</p>
                 </div>
 
                 <hr />

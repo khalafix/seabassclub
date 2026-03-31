@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="footer-wrapper">
@@ -14,7 +16,7 @@ export default function Footer() {
               <a href="#" className="btn btn-primary fadeInUp" data-delay="0.7"><span>PURCHASE
                 NOW</span><span>PURCHASE
                   NOW</span></a>
-              <img className="curve-arrow fadeInUp" src="/assets/img/core-img/curved-arrow.png" alt="" />
+              <Image className="curve-arrow fadeInUp" src="/assets/img/core-img/curved-arrow.png" alt="" width={1920} height={1080} priority/>
             </div>
           </div>
         </div>
@@ -30,7 +32,7 @@ export default function Footer() {
 
       <div className="container">
         <div className="text-center">
-          <p className="mb-0 mt-4 copyright">Copyright © {new Date().getFullYear()} <a href="https://themeforest.net/user/designing-world" target="_blank">Designing World</a> All rights reserved.</p>
+          <p className="mb-0 mt-4 copyright">Copyright © {new Date().getFullYear()} <a href="#" target="_blank">theme_ocean</a> All rights reserved.</p>
         </div>
       </div>
 

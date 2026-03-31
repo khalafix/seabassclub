@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutHomeTwo() {
   return (
@@ -50,9 +51,8 @@ export default function AboutHomeTwo() {
           {/* <!-- About Image --> */}
           <div className="col-12 col-md-6">
             <div className="about-two-img translateY10">
-
-              <img className="first-img fadeInUp" data-delay="0.6" src="/assets/img/bg-img/42.png" alt="" />
-              <img className="second-img fadeInUp" data-delay="0.7" src="/assets/img/bg-img/43.png" alt="" />
+              <Image className="first-img fadeInUp" data-delay="0.6" src="/assets/img/bg-img/42.png" alt="" width={1000} height={1000} priority/>
+              <Image className="second-img fadeInUp" data-delay="0.7" src="/assets/img/bg-img/43.png" alt="" width={1000} height={1000} priority/>
             </div>
           </div>
         </div>

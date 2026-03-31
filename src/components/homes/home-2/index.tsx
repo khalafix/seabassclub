@@ -1,5 +1,7 @@
 "use client";
+
 import dynamic from "next/dynamic";
+
 const FunfactHomeTwo = dynamic(
   () => import("./FunfactHomeTwo"),
   { ssr: false }  

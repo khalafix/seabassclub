@@ -2,6 +2,7 @@
 
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 // Swiper styles
 import "swiper/css";
@@ -56,30 +57,29 @@ export default function InterfaceHomeTwo() {
           className="swiper app-screenshots" id="appScreenshotsSlide">
 
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/44.png" alt="" />
+            <Image src="/assets/img/bg-img/44.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/45.png" alt="" />
+            <Image src="/assets/img/bg-img/45.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/46.png" alt="" />
+            <Image src="/assets/img/bg-img/46.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/47.png" alt="" />
+            <Image src="/assets/img/bg-img/47.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/44.png" alt="" />
+            <Image src="/assets/img/bg-img/44.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/45.png" alt="" />
+            <Image src="/assets/img/bg-img/45.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/46.png" alt="" />
+            <Image src="/assets/img/bg-img/46.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/47.png" alt="" />
+            <Image src="/assets/img/bg-img/47.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
-
         </Swiper>
 
         {/* <!-- Divider --> */}

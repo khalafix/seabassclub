@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogHomeTwo() {
   return (
@@ -25,7 +26,7 @@ export default function BlogHomeTwo() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.5">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/10.jpg" alt="" />
+                <Image src="/assets/img/bg-img/10.jpg" alt="" width={1000} height={1000} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -47,7 +48,7 @@ export default function BlogHomeTwo() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.6">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/11.jpg" alt="" />
+                <Image src="/assets/img/bg-img/11.jpg" alt="" width={1000} height={1000} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -69,7 +70,7 @@ export default function BlogHomeTwo() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.7">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/12.jpg" alt="" />
+                <Image src="/assets/img/bg-img/12.jpg" alt="" width={1000} height={1000} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">

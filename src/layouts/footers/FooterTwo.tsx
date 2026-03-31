@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useJarallax } from "@/hooks/useJarallax";
 import 'jarallax/dist/jarallax.css';
+import Image from "next/image";
 
 export default function FooterTwo() {
   const jarallaxRef = useJarallax(0.6);
@@ -55,7 +56,7 @@ export default function FooterTwo() {
             <div className="footer-card me-xl-5">
               {/* <!-- Footer Logo --> */}
               <Link href="/home-2" className="footer-logo mb-4">
-                <img src="/assets/img/core-img/logo-light.png" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/core-img/logo-light.png" alt="" width={1920} height={1080} priority/>
               </Link>
               <p>Each demo built with Teba will look different. You can customize almost anything appearance
                 of your website with only a few.</p>
@@ -128,7 +129,7 @@ export default function FooterTwo() {
         <div className="copyright-section">
           <div
             className="d-flex flex-wrap justify-content-center align-items-center justify-content-md-between gap-3 gap-lg-4">
-            <p className="mb-0 copyright style-two">Copyright © {new Date().getFullYear()} <a href="https://themeforest.net/user/designing-world" target="_blank">Designing World</a> All rights reserved.</p>
+            <p className="mb-0 copyright style-two">Copyright © {new Date().getFullYear()} <a href="#" target="_blank">theme_ocean</a> All rights reserved.</p>
 
             {/* <!-- Copyright Nav --> */}
             <ul className="copyright-nav justify-content-center list-unstyled d-flex flex-wrap gap-3 gap-lg-4">

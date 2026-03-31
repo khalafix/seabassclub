@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CtaHomeTwo() {
   return (
     <section className="download-section bg-primary">
@@ -42,8 +44,8 @@ export default function CtaHomeTwo() {
           {/* <!-- Download App Image --> */}
           <div className="col-12 col-md-6">
             <div className="download-app-img fadeInUp" data-delay="1">
-              <img src="/assets/img/core-img/shape.png" alt="" />
-              <img className="download-app-img-two" src="/assets/img/bg-img/9.png" alt="" />
+              <Image src="/assets/img/core-img/shape.png" alt="" width={1000} height={1000} priority/>
+              <Image className="download-app-img-two" src="/assets/img/bg-img/9.png" alt="" width={1000} height={1000} priority/>
             </div>
           </div>
         </div>

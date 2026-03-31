@@ -1,6 +1,7 @@
 "use client";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 const brands = [
   "/assets/img/partner-img/1.png",
@@ -132,7 +133,7 @@ export default function PricingHomeTwo() {
             {brands.map((item, i) => (
               <SwiperSlide key={i} className="swiper-slide">
                 <a href="#" className="swiper-slide">
-                  <img src={item} alt="" />
+                  <Image src={item} alt="" width={1000} height={1000} priority />
                 </a>
               </SwiperSlide>
             ))}

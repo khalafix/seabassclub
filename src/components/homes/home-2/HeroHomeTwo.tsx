@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HeroHomeTwo() {
   return (
@@ -8,10 +9,10 @@ export default function HeroHomeTwo() {
           {/* <!-- Hero Image --> */}
           <div className="col-12 col-lg-6 col-hero-img">
             <div className="hero-image text-center fadeInUp" data-delay="1">
-              <img src="/assets/img/bg-img/36.png" alt="" />
+              <Image src="/assets/img/bg-img/36.png" alt="" width={1000} height={1000} priority />
               {/* <!-- Shape --> */}
               <div className="bg-shape">
-                <img data-speed="0.85" src="/assets/img/core-img/shape8.png" alt="" />
+                <Image data-speed="0.8" src="/assets/img/core-img/shape8.png" alt="" width={1000} height={1000} priority />
               </div>
             </div>
           </div>
@@ -41,9 +42,9 @@ export default function HeroHomeTwo() {
               <div className="hero-cool-facts flex-wrap">
                 <div className="d-flex align-items-center fadeInUp" data-delay="1.0">
                   <div className="imgs-group style-two">
-                    <img src="/assets/img/bg-img/37.png" alt="" />
-                    <img src="/assets/img/bg-img/38.png" alt="" />
-                    <img src="/assets/img/bg-img/39.png" alt="" />
+                    <Image src="/assets/img/bg-img/37.png" alt="" width={1000} height={1000} priority />
+                    <Image src="/assets/img/bg-img/38.png" alt="" width={1000} height={1000} priority />
+                    <Image src="/assets/img/bg-img/39.png" alt="" width={1000} height={1000} priority />
                   </div>
                   <div className="ms-2">
                     <h4 className="mb-0"><span className="counter">2599</span>+</h4>

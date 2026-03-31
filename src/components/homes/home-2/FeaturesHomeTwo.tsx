@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function FeaturesHomeTwo() {
   // Track which feature is active
@@ -64,11 +65,14 @@ export default function FeaturesHomeTwo() {
           <div className="col-12 col-md-4">
             <div className="app-feature-img">
               {featureData.map((feature) => (
-                <img
+                <Image
                   key={feature.id}
                   className={`${feature.id} ${activeFeature === feature.id ? "active" : ""}`}
                   src={`/assets/img/bg-img/${82 + featureData.indexOf(feature)}.png`}
                   alt={feature.title}
+                  width={1000}
+                  height={1000}
+                  priority
                 />
               ))}
             </div>

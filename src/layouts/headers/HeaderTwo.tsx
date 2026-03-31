@@ -4,6 +4,7 @@ import Navmenu from "./Navmenu";
 import { useState } from "react";
 import SearchbarArea from "@/common/SearchbarArea";
 import UseSticky from "@/hooks/UseSticky";
+import Image from "next/image";
 
 export default function HeaderTwo() {
    const {sticky} = UseSticky();
@@ -21,8 +22,8 @@ export default function HeaderTwo() {
             <nav className="navbar navbar-expand-xl">
                {/* <!-- Navbar Brand --> */}
                <Link className="navbar-brand" href="/home-2">
-                  <img className="d-none d-sm-block" src="/assets/img/core-img/logo-five.png" alt="" />
-                  <img className="d-block d-sm-none" src="/assets/img/core-img/logo-sm-two.png" alt="" />
+                  <Image className="d-none d-sm-block w-auto h-auto" src="/assets/img/core-img/logo-five.png" alt="" width={1920} height={1080} priority/>
+                  <Image className="d-block d-sm-none w-auto h-auto" src="/assets/img/core-img/logo-sm-two.png" alt="" width={1920} height={1080} priority/>
                </Link>
 
                {/* <!-- Navbar Toggler --> */}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FooterFive() {
   return (
@@ -13,7 +14,7 @@ export default function FooterFive() {
             <div className="footer-card me-lg-5">
               {/* <!-- Footer Logo --> */}
               <Link href="/home-5" className="footer-logo mb-4">
-                <img src="/assets/img/core-img/logo-four.png" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/core-img/logo-four.png" alt="" width={1920} height={1080} priority/>
               </Link>
               <p>Each demo built with Teba will look different. You can customize almost anything appearance
                 of your website with only a few.</p>
@@ -105,8 +106,8 @@ export default function FooterFive() {
                 </a>
               </div>
               <div className="d-flex align-items-center gap-3 mt-4">
-                <a href="#" className="d-block"><img src="/assets/img/core-img/app-store.png" alt="" /></a>
-                <a href="#" className="d-block"><img src="/assets/img/core-img/google-pay.png" alt="" /></a>
+                <a href="#" className="d-block"><Image className="w-auto h-auto" src="/assets/img/core-img/app-store.png" alt="" width={1920} height={1080} priority/></a>
+                <a href="#" className="d-block"><Image className="w-auto h-auto" src="/assets/img/core-img/google-pay.png" alt="" width={1920} height={1080} priority/></a>
               </div>
             </div>
           </div>
@@ -121,7 +122,7 @@ export default function FooterFive() {
         <div className="container">
           <div
             className="d-flex flex-wrap justify-content-center align-items-center justify-content-md-between gap-3 gap-lg-4">
-            <p className="mb-0 copyright">Copyright © {new Date().getFullYear()} <a href="https://themeforest.net/user/designing-world" target="_blank">Designing World</a> All rights reserved.</p>
+            <p className="mb-0 copyright">Copyright © {new Date().getFullYear()} <a href="#" target="_blank">theme_ocean</a> All rights reserved.</p>
 
             {/* <!-- Copyright Nav --> */}
             <ul
