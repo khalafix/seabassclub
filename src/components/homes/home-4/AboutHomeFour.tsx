@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutHomeFour() {
   return (
-    <div className="about-section">
+    <div id="about-us" className="about-section">
       {/* <!-- Divider --> */}
       <div className="divider"></div>
 

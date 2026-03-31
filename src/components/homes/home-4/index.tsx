@@ -12,7 +12,7 @@ import BlogHomeFour from "./BlogHomeFour";
 import FooterFour from "@/layouts/footers/FooterFour";
 import TestimonialHomeFour from "./TestimonialHomeFour";
 
-export default function HomeFour() {
+export default function SeabassClub() {
   return (
       <Wrapper>
         <HeaderFour />
