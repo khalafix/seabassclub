@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import ThemeProvider from "@/common/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Startix - Multipurpose SaaS Landing Next JS Template",
-  description: "Modern web template built with Next.js and TypeScript",
-  keywords: ["Next.js", "React", "Template", "Startix"],
+  title: "Sea Bass  | Sustainable Marine Cage Farming Company",
+  description: "We produce premium barramundi (sea bass) using sustainable marine cage farming. High-quality, omega-3 rich fish, responsibly raised for global markets with year-round supply and export standards.",
+  keywords: ["barramundi fish", "sea bass farming", "marine cage fish farming", "sustainable aquaculture", "seafood export", "omega-3 fish", "premium fish supplier", "aquaculture company", "farmed sea bass", "healthy seafood", "fish production", "Persian Gulf aquaculture"],
 };
 
 export default function RootLayout({

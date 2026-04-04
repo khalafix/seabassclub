@@ -23,44 +23,62 @@ export default function FeaturesHomeOne() {
           {/* <!-- Featured Image --> */}
           <div className="col-12 col-md-6">
             <div className="featured-img translateY10 me-xl-4">
-              <Image className="tilt-image img-anim-left w-auto h-auto" src="/assets/img/bg-img/32.png" alt="" width={800} height={800} priority/>
+              <Image
+                className="tilt-image img-anim-left w-auto h-auto"
+                src="/assets/img/bg-img/32.png"
+                alt=""
+                width={800}
+                height={800}
+                priority
+              />
             </div>
           </div>
           {/* <!-- Featured Content --> */}
           <div className="col-12 col-md-6">
             <div className="featured-content">
               <h2 className="mb-3">Marketing Teams</h2>
-              <p className="mb-4">Saas products are accessible via web browsers, eliminating the need for users to
-                install or maintain software locally. This model provides business with This model provides
-                business withflexibility.</p>
+              <p className="mb-4">
+                Saas products are accessible via web browsers, eliminating the
+                need for users to install or maintain software locally. This
+                model provides business with This model provides business
+                withflexibility.
+              </p>
 
               {/* <!-- List --> */}
               <ul className="list-unstyled mb-5 featured-list">
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Social Media Design
+                  </svg>{" "}
+                  Social Media Design
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Social Media Management
+                  </svg>{" "}
+                  Social Media Management
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Custom ad strategy
+                  </svg>{" "}
+                  Custom ad strategy
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Unique ads campaigns
+                  </svg>{" "}
+                  Unique ads campaigns
                 </li>
               </ul>
               {/* <!-- Button --> */}
               <Link href="/services" className="btn btn-primary">
-                <span>Read More <i className="ti ti-arrow-up-right"></i></span>
-                <span>Read More <i className="ti ti-arrow-up-right"></i></span>
+                <span>
+                  Read More <i className="ti ti-arrow-up-right"></i>
+                </span>
+                <span>
+                  Read More <i className="ti ti-arrow-up-right"></i>
+                </span>
               </Link>
             </div>
           </div>
@@ -76,36 +94,47 @@ export default function FeaturesHomeOne() {
           <div className="col-12 col-md-6">
             <div className="featured-content">
               <h2 className="mb-3">Project Management</h2>
-              <p className="mb-4">Saas products are accessible via web browsers, eliminating the need for users to
-                install or maintain software locally. This model provides business with This model provides
-                business withflexibility.</p>
+              <p className="mb-4">
+                Saas products are accessible via web browsers, eliminating the
+                need for users to install or maintain software locally. This
+                model provides business with This model provides business
+                withflexibility.
+              </p>
               {/* <!-- List --> */}
               <ul className="list-unstyled mb-5 featured-list">
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Social Media Design
+                  </svg>{" "}
+                  Social Media Design
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Social Media Management
+                  </svg>{" "}
+                  Social Media Management
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Custom ad strategy
+                  </svg>{" "}
+                  Custom ad strategy
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Unique ads campaigns
+                  </svg>{" "}
+                  Unique ads campaigns
                 </li>
               </ul>
               {/* <!-- Button --> */}
               <Link href="/services" className="btn btn-primary">
-                <span>Read More <i className="ti ti-arrow-up-right"></i></span>
-                <span>Read More <i className="ti ti-arrow-up-right"></i></span>
+                <span>
+                  Read More <i className="ti ti-arrow-up-right"></i>
+                </span>
+                <span>
+                  Read More <i className="ti ti-arrow-up-right"></i>
+                </span>
               </Link>
             </div>
           </div>
@@ -113,7 +142,14 @@ export default function FeaturesHomeOne() {
           {/* <!-- Featured Image --> */}
           <div className="col-12 col-md-6">
             <div className="featured-img translateY10 me-xl-4">
-              <Image className="tilt-image img-anim-right w-auto h-auto" src="/assets/img/bg-img/33.png" alt="" width={800} height={800} priority/>
+              <Image
+                className="tilt-image img-anim-right w-auto h-auto"
+                src="/assets/img/bg-img/33.png"
+                alt=""
+                width={800}
+                height={800}
+                priority
+              />
             </div>
           </div>
         </div>
@@ -127,7 +163,14 @@ export default function FeaturesHomeOne() {
           {/* <!-- Featured Image --> */}
           <div className="col-12 col-md-6">
             <div className="featured-img translateY10 me-xl-4">
-              <Image className="tilt-image img-anim-left w-auto h-auto" src="/assets/img/bg-img/34.png" alt="" width={800} height={800} priority/>
+              <Image
+                className="tilt-image img-anim-left w-auto h-auto"
+                src="/assets/img/bg-img/34.png"
+                alt=""
+                width={800}
+                height={800}
+                priority
+              />
             </div>
           </div>
 
@@ -135,37 +178,48 @@ export default function FeaturesHomeOne() {
           <div className="col-12 col-md-6">
             <div className="featured-content">
               <h2 className="mb-3">Strategic Planning</h2>
-              <p className="mb-4">Saas products are accessible via web browsers, eliminating the need for users to
-                install or maintain software locally. This model provides business with This model provides
-                business withflexibility.</p>
+              <p className="mb-4">
+                Saas products are accessible via web browsers, eliminating the
+                need for users to install or maintain software locally. This
+                model provides business with This model provides business
+                withflexibility.
+              </p>
               {/* <!-- List --> */}
               <ul className="list-unstyled mb-5 featured-list">
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Social Media Design
+                  </svg>{" "}
+                  Social Media Design
                 </li>
 
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Social Media Management
+                  </svg>{" "}
+                  Social Media Management
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Custom ad strategy
+                  </svg>{" "}
+                  Custom ad strategy
                 </li>
                 <li>
                   <svg width="28" height="28">
                     <use href="#checkIcon2"></use>
-                  </svg> Unique ads campaigns
+                  </svg>{" "}
+                  Unique ads campaigns
                 </li>
               </ul>
               {/* <!-- Button --> */}
               <Link href="/services" className="btn btn-primary">
-                <span>Read More <i className="ti ti-arrow-up-right"></i></span>
-                <span>Read More <i className="ti ti-arrow-up-right"></i></span>
+                <span>
+                  Read More <i className="ti ti-arrow-up-right"></i>
+                </span>
+                <span>
+                  Read More <i className="ti ti-arrow-up-right"></i>
+                </span>
               </Link>
             </div>
           </div>
@@ -175,5 +229,5 @@ export default function FeaturesHomeOne() {
       {/* <!-- Divider --> */}
       <div className="divider"></div>
     </section>
-  )
+  );
 }

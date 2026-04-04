@@ -2,114 +2,94 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function FaqHomeFour() {
+
+  const faqs = [
+    {
+      question: "What is Barramundi (Sea Bass)?",
+      answer: "Barramundi is a premium white fish known for its mild flavor, high protein content, and rich omega-3 fatty acids. It is widely recognized as one of the best fish for both health and taste."
+    },
+    {
+      question: "How is your sea bass farmed?",
+      answer: "Our barramundi is raised in open marine cages, allowing natural water flow and a clean environment. This sustainable method ensures better fish quality and minimal environmental impact."
+    },
+    {
+      question: "Is your fish suitable for export?",
+      answer: "Yes, our products meet international health and quality standards, making them suitable for export to global markets including Europe, Asia, and beyond."
+    },
+    {
+      question: "What makes your fish high quality?",
+      answer: "Our fish are naturally raised, free from harmful chemicals, and rich in omega-3. Controlled feeding and expert supervision ensure consistent quality and taste."
+    },
+    {
+      question: "What product types do you offer?",
+      answer: "We offer a variety of products including skin-on fillet, skinless fillet, whole fish, and gutted fish in different sizes and packaging options."
+    }
+  ];
+
   return (
-    <section className="faq-section bg-secondary  mx-md-3 mx-xl-4 rounded-4">
-      {/* <!-- Divider --> */}
+    <section className="faq-section bg-secondary mx-md-3 mx-xl-4 rounded-4">
+
       <div className="divider"></div>
 
       <div className="container">
         <div className="row g-5 align-items-center">
-          {/* <!-- Service Card --> */}
+
+          {/* Image Side */}
           <div className="col-12 col-md-6">
             <div className="service-card-two style-two pe-xxl-5">
               <div className="service-thumb mb-0">
-                <Link href="/contact" className="btn">Explore more</Link>
-                <Image src="/assets/img/bg-img/81.png" alt="" width={1920} height={1080} priority/>
+                <Link href="/contact" className="btn">Contact Us</Link>
+                <Image src="/assets/img/core-img/seabassclub-filla.jpg" alt="" width={1920} height={1080} priority/>
               </div>
             </div>
           </div>
 
+          {/* FAQ Content */}
           <div className="col-12 col-md-6">
-            {/* <!-- Section Heading --> */}
+
             <div className="section-heading mb-5">
-              <span className="subtitle"><span>Question</span></span>
-              <h2 className="mb-0">Have Any Questions? Here Some Answers</h2>
+              <span className="subtitle"><span>FAQ</span></span>
+              <h2 className="mb-0">Frequently Asked Questions</h2>
             </div>
 
-            {/* <!-- FAQ Accordion --> */}
             <div className="faq-accordion theme-two">
               <div className="accordion" id="faqAccordion">
-                {/* <!-- Accordion Item --> */}
-                <div className="accordion-item">
-                  <div className="accordion-header">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faqQuestion1" aria-expanded="true" aria-controls="faqQuestion1">
-                      What is Artificial Intelligence?
-                    </button>
-                  </div>
-                  <div id="faqQuestion1" className="accordion-collapse collapse show"
-                    data-bs-parent="#faqAccordion">
-                    <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself, pain
-                      because it
-                      is pain, but occasionally cumstances occur in which toil and pain can procuresteady
-                      steady.
-                    </div>
-                  </div>
-                </div>
 
-                {/* <!-- Accordion Item --> */}
-                <div className="accordion-item">
-                  <div className="accordion-header">
-                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faqQuestion2" aria-expanded="false" aria-controls="faqQuestion2">
-                      What industries do you cater to?
-                    </button>
-                  </div>
-                  <div id="faqQuestion2" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself, pain
-                      because it
-                      is pain, but occasionally cumstances occur in which toil and pain can procuresteady
-                      steady.
+                {faqs.map((faq, index) => (
+                  <div className="accordion-item" key={index}>
+                    <div className="accordion-header">
+                      <button
+                        className={`accordion-button ${index !== 0 ? "collapsed" : ""}`}
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target={`#faqQuestion${index}`}
+                        aria-expanded={index === 0 ? "true" : "false"}
+                        aria-controls={`faqQuestion${index}`}
+                      >
+                        {faq.question}
+                      </button>
                     </div>
-                  </div>
-                </div>
 
-                {/* <!-- Accordion Item --> */}
-                <div className="accordion-item">
-                  <div className="accordion-header">
-                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faqQuestion3" aria-expanded="false" aria-controls="faqQuestion3">
-                      Machine Learning is AI that learns?
-                    </button>
-                  </div>
-                  <div id="faqQuestion3" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself, pain
-                      because it
-                      is pain, but occasionally cumstances occur in which toil and pain can procuresteady
-                      steady.
+                    <div
+                      id={`faqQuestion${index}`}
+                      className={`accordion-collapse collapse ${index === 0 ? "show" : ""}`}
+                      data-bs-parent="#faqAccordion"
+                    >
+                      <div className="accordion-body">
+                        {faq.answer}
+                      </div>
                     </div>
                   </div>
-                </div>
-
-                {/* <!-- Accordion Item --> */}
-                <div className="accordion-item">
-                  <div className="accordion-header">
-                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#faqQuestion4" aria-expanded="false" aria-controls="faqQuestion4">
-                      Why Need Marketing Data Analysis?
-                    </button>
-                  </div>
-                  <div id="faqQuestion4" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself, pain
-                      because it
-                      is pain, but occasionally cumstances occur in which toil and pain can procuresteady
-                      steady.
-                    </div>
-                  </div>
-                </div>
+                ))}
 
               </div>
             </div>
+
           </div>
         </div>
       </div>
 
-      {/* <!-- Divider --> */}
       <div className="divider"></div>
     </section>
-  )
+  );
 }

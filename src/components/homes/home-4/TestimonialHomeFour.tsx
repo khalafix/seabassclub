@@ -12,18 +12,23 @@ export default function TestimonialHomeFour() {
   const nextRef = useRef<HTMLDivElement>(null);
   const [swiperInstance, setSwiperInstance] = useState<any>(null);
 
-  const blogSlides = [
-    {
-      text: "“Versatile consulting caters to a spectrum Comprehensive strategies, the realm of consulting caters to a spectrum of needs with its array of  offerings. Comprehensive strategies, the realm of  of needs with its of versatile offerings”",
-      name: "Brooklyn Simmons",
-      role: "Lead Developer",
-    },
-    {
-      text: "“Comprehensive strategies Versatile consulting caters to a spectrum Comprehensive strategies, the realm of consulting caters to a spectrum of needs with its array of  offerings. , the realm of  of needs with its of versatile offerings”",
-      name: "Brooklyn Simmons",
-      role: "Lead Developer",
-    },
-  ];
+const blogSlides = [
+  {
+    text: "“The quality of barramundi is exceptional. Clean taste, perfect texture, and consistent supply make it ideal for our restaurant menu.”",
+    name: "Michael Carter",
+    role: "Executive Chef",
+  },
+  {
+    text: "“We’ve been sourcing sea bass from this company for international distribution. Their product meets high export standards and arrives fresh every time.”",
+    name: "David Nguyen",
+    role: "Seafood Importer",
+  },
+  {
+    text: "“Reliable production and sustainable farming methods give us confidence in long-term partnerships. Highly recommended for global seafood buyers.”",
+    name: "Ahmed Al Mansoori",
+    role: "Food Supply Distributor",
+  },
+];
 
   useEffect(() => {
     if (swiperInstance && prevRef.current && nextRef.current) {

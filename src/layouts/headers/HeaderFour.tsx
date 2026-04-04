@@ -21,7 +21,7 @@ export default function HeaderFour() {
         <nav className="navbar navbar-expand-xl">
           {/* <!-- Navbar Brand --> */}
           <Link className="navbar-brand" href="/home-4">
-            <Image className="w-auto h-auto" src="/assets/img/core-img/logo-light.png" alt="" width={1920} height={1080} priority/>
+            <Image className="w-auto h-auto" src="/assets/img/core-img/seabassclub.png" alt="" width={1920} height={1080} priority/>
           </Link>
 
           {/* <!-- Navbar Toggler --> */}

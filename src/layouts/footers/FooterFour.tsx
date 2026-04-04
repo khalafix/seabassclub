@@ -10,7 +10,7 @@ export default function FooterFour() {
 
   return (
     <footer ref={jarallaxRef} className="footer-section style-four jarallax" data-jarallax="{'speed': 0.6}"
-      style={{ backgroundImage: "url(/assets/img/bg-img/2.jpg)" }}>
+      style={{ backgroundImage: "url(/assets/img/core-img/seabassclub.png)" }}>
       {/* <!-- Divider --> */}
       <div className="divider"></div>
 
@@ -56,10 +56,10 @@ export default function FooterFour() {
             <div className="footer-card me-lg-5">
               {/* <!-- Footer Logo --> */}
               <Link href="/home-4" className="footer-logo mb-4">
-                <Image className="w-auto h-auto" src="/assets/img/core-img/logo-light.png" alt="" width={1920} height={1080} priority/>
+                <Image className="w-auto h-auto" src="/assets/img/core-img/seabassclub.png" alt="" width={1920} height={1080} priority/>
               </Link>
-              <p>Each demo built with Teba will look different. You can customize almost anything appearance
-                of your website with only a few.</p>
+              <p>  Discover premium barramundi products, rich in omega-3 and perfect for restaurants, retailers, and everyday meals.
+</p>
               {/* <!-- Social Nav --> */}
               <div className="social-nav">
                 <a href="#">
@@ -106,51 +106,7 @@ export default function FooterFour() {
             </div>
           </div>
 
-          {/* <!-- Footer Card --> */}
-          <div className="col-12 col-sm-6 col-md">
-            <div className="footer-card">
-              <h5 className="mb-4">Recent Posts</h5>
-
-              <ul className="list-unstyled recent-posts-nav">
-                <li>
-                  <a href="#">
-                    <Image className="w-auto h-auto" src="/assets/img/bg-img/3.jpg" alt="" width={1920} height={1080} priority/>
-                    <span><i className="ti ti-arrow-up-right"></i></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <Image className="w-auto h-auto" src="/assets/img/bg-img/4.jpg" alt="" width={1920} height={1080} priority/>
-                    <span><i className="ti ti-arrow-up-right"></i></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <Image className="w-auto h-auto" src="/assets/img/bg-img/5.jpg" alt="" width={1920} height={1080} priority/>
-                    <span><i className="ti ti-arrow-up-right"></i></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <Image className="w-auto h-auto" src="/assets/img/bg-img/6.jpg" alt="" width={1920} height={1080} priority/>
-                    <span><i className="ti ti-arrow-up-right"></i></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <Image className="w-auto h-auto" src="/assets/img/bg-img/7.jpg" alt="" width={1920} height={1080} priority/>
-                    <span><i className="ti ti-arrow-up-right"></i></span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <Image className="w-auto h-auto" src="/assets/img/bg-img/8.jpg" alt="" width={1920} height={1080} priority/>
-                    <span><i className="ti ti-arrow-up-right"></i></span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+         
         </div>
       </div>
 
@@ -162,7 +118,7 @@ export default function FooterFour() {
         <div className="copyright-section">
           <div
             className="d-flex flex-wrap justify-content-center align-items-center justify-content-md-between gap-3 gap-lg-4">
-            <p className="mb-0 copyright style-two">Copyright © {new Date().getFullYear()} <a href="#" target="_blank">theme_ocean</a> All rights reserved.</p>
+            <p className="mb-0 copyright style-two">Copyright © {new Date().getFullYear() - 2 } <a href="#" target="_blank">SEABASS TEAM</a> All rights reserved.</p>
 
             {/* <!-- Copyright Nav --> */}
             <ul className="copyright-nav justify-content-center list-unstyled d-flex flex-wrap gap-3 gap-lg-4">

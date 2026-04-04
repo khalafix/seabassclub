@@ -5,14 +5,15 @@ export default function AboutHomeFour() {
     <div id="about-us" className="about-section">
       {/* <!-- Divider --> */}
       <div className="divider"></div>
-
       {/* <!-- About Content --> */}
       <div className="container">
         <div className="about-content fadeInUp" data-delay="0.5">
-          <h2>We are a full-Service Agency in AI Automation.</h2>
-          <Image src="/assets/img/bg-img/61.png" alt="" width={1920} height={1080} priority/>
-          <h2>We Transform into <span className="text-primary">AI-Driven</span> Industries Leader.</h2>
-          <Image src="/assets/img/bg-img/62.png" alt="" width={1920} height={1080} priority/>
+          <h2>We specialize in sustainable fish farming in open sea environments.</h2>
+<Image src="/assets/img/bg-img/1-barramundi.png" alt="" width={1920} height={1080} priority/>
+<h2>
+  Delivering export-quality <span className="text-primary">Sea Bass (Barramundi)</span> to global markets.
+</h2>
+<Image src="/assets/img/bg-img/2-barramundi.png" alt="" width={1920} height={1080} priority/>
         </div>
       </div>
 
