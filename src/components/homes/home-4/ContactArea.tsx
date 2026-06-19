@@ -10,20 +10,20 @@ export default function ContactArea() {
             {/* <!-- Contact Info Card --> */}
             <div className="col-12 col-md-6 col-lg-5">
               <div className="contact-info-card me-xxl-5">
-                <h2 className="mb-5">+1 (543) 432-3532</h2>
+                <h2 className="mb-5">+971 50 840 4321</h2>
 
                 <div className="contact-sm-card">
                   <h4 className="mb-3">Address</h4>
-                  <p>Los Angeles, CA 90028</p>
-                  <p>6801 Hollywood Blvd, CA 90028</p>
+                  <p>Seabass Club , Dubai </p>
+                  <p>N40 AL DURRAH Tower, Sheikh Zayed Roud</p>
                 </div>
 
                 <hr />
 
                 <div className="contact-sm-card">
                   <h4 className="mb-3">Email</h4>
-                  <p>info@startix.com</p>
-                  <p>care@startix.com</p>
+                  <p>seabassdxb@gmail.com</p>
+                  
                 </div>
 
                 <hr />
@@ -89,7 +89,7 @@ export default function ContactArea() {
       {/* <!-- Maps Section --> */}
       <div className="maps-section">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28244.1302134898!2d-74.1755892587003!3d40.01311247715887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c10878047171d5%3A0x583d9327f3de1501!2sOcean%20County%20College!5e0!3m2!1sen!2sbd!4v1754374104321!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d902.3745600114399!2d55.27931926961231!3d25.220138311873303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43b42a5f52b3%3A0xf6a53f2dbe179e4c!2sAsfar%20Grand%20Tourist!5e0!3m2!1sen!2sae!4v1781856427786!5m2!1sen!2sae"
           loading="lazy"></iframe>
       </div>
     </>

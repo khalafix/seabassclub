@@ -72,13 +72,13 @@ export default function TeamDetailsArea() {
               </p>
 
               <h5>Email Address</h5>
-              <p className="mb-4">needhelp@yourdomain.com</p>
+              <p className="mb-4">seabassdxb@gmail.com</p>
 
               <h5>Phone Number</h5>
-              <p className="mb-4">+012-3456-789</p>
+              <p className="mb-4"><a href="tel:+971508404321">+971 50 840 4321</a></p>
 
               <h5>Web Address</h5>
-              <p className="mb-5">https://yourdomain.com</p>
+              <p className="mb-5"><a href="https://seabassclub.com">https://seabassclub.com</a></p>
 
               {/* Social Nav */}
               <div className="social-nav">
